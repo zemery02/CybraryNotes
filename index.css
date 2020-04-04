@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Baloo 2', cursive;
+}
+
+a:link, a:visited {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #8C8C8C;
+  color: #000000;
+  border: 2px solid #8C8C8C;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pageButton {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
